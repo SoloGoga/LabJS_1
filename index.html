@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="modal">
+    <div class="title-modal">
+        <h2 class="title">
+            Стих про JavaScript
+        </h2>
+        <span class="x" data-modal-toggle>x</span>
+    </div>
+    <div class="text-modal">
+        <p>Вот модальное окно, мне понравилось оно. <br>
+            Сделал быстро лабу я, теперь довольна вся семья.<br>
+            Сварил пельмени без капельки лени.<br>
+            Четверостишье как затишье.<br>
+            Получилось хорошо, потому что JavaScript!</p>
+    </div>
+    <div class="button-space">
+        <button class="btn-a" data-modal-toggle>Cancel</button>
+        <button class="btn-b">Accept</button>
+    </div>
+    </section>
+
+    <button class="btn-on" data-modal-toggle>On</button>
+    <div class="overlayer" data-modal-toggle></div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
